@@ -45,7 +45,8 @@ body {
   padding: 12px;
   border-radius: 12px;
   border: 1px solid #bbbbbb;
-  border-left: 12px solid salmon;
+  border-left: none;
+  box-shadow: -8px 0px salmon;
 }
 
 .textAreas .field textarea:focus{
