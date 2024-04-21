@@ -41,7 +41,7 @@ body {
 .textAreas .field textarea {
   resize: none;
   width: 100%;
-  height: 120px;
+  height: 140px;
   padding: 12px;
   border-radius: 12px;
   border: 1px solid #bbbbbb;
@@ -85,4 +85,17 @@ body {
 
 .select option {
   background: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .translate {
+    width: 85%;
+  }
+  .textAreas {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .textAreas .field:first-child{
+    flex-direction: column-reverse;
+  }
 }
